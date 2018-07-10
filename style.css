@@ -1,0 +1,21 @@
+#word{
+  margin-bottom: 0;
+  font-family: 'Cinzel', serif;
+ 
+}
+#answer{
+  outline:none;
+ 
+}
+.btn-outline-secondary:not(:disabled):not(.disabled).active:focus, .btn-outline-secondary:not(:disabled):not(.disabled):active:focus{
+ box-shadow: none !important; 
+ 
+}
+.progress .progress-bar{
+  transition:width 0s !important;
+  transition-timing-function:cubic-bezier(0,.95,0,.95) !important;
+
+}
+#div{
+    background-color: red;
+}

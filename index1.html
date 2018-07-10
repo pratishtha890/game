@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Game of Words</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-secondary">
+  
+        <section>
+                <header>
+                  <h1 class="gameTitle">Type or Death</h1> 
+                </header>
+  
+ 
+
+  <!--game window-->
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-8 offset-sm-2 col-10 offset-1 mt-4 border border-secondary rounded p-sm-5 px-2 py-3 bg-light">
+        <!--difficulty button-->
+        <div class="column">
+          <div class="col-4 px-sm-3 pr-1"><button type="button" class="btn btn-outline-secondary btn-block" id="easy">Level1</button></div><br>
+          <div class="col-4 px-sm-3 px-1"><button type="button" class="btn btn-outline-secondary btn-block" id="medium">Level2</button></div><br>
+          <div class="col-4 px-sm-3 pl-1"><button type="button" class="btn btn-outline-secondary btn-block" id="hard">Level3</button></div><br>
+          <!--difficulty button-end-->
+          <!--game-->
+          <div class="col-12 text-center pt-4">Score: <strong id="score">0</strong></div>
+          <div class="col-12 text-center pt-3"><div class="card card-body"><h2 id="word"></h2></div></div>
+          <div class="col-12 text-center pt-5"><input type="text"class="text-center" id="answer"></div>
+        </div>
+        <!--game-end-->
+        <!--progress-bar-->
+        <div class="progress mt-5">
+          <div class="progress-bar bg-secondary" role="progressbar" aria-valuenow="1" aria-valuemin="1" aria-valuemax="100"></div>
+        </div>
+        <!--progress-bar-end-->
+      </div>
+    </div>
+  </div>
+  <!--game window-end-->
+
+  <script src="global.js"></script>
+  <script src="main.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
